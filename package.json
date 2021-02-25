@@ -1,0 +1,18 @@
+{
+  "name": "spcucumberdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js ./features -r ./steps"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^7.0.0-rc.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
